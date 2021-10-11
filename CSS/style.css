@@ -1,0 +1,46 @@
+body
+{
+    background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 0%, #1d1e26);
+    color: white;
+    font: normal 32px/1.6 system-ui, sans-serif;
+    text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+    margin: 3rem;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+label
+{
+    font-size: 20px;
+}
+input
+{
+    font-size: 30px;
+    padding: 0.2em 0.5em;
+}
+button
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 30px;
+    margin-left: 500px;
+}
+button:active
+{
+    background-color:black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
