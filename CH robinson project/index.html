@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        This app finds the shortest route from the starting point
+        which is the United States ('USA') to the destination which can be any of the following countries:<br/>
+        • CAN – Canada borders the United States<br/>
+        • USA – The United States borders Canada and Mexico<br/>
+        • MEX – Mexico borders the United States, Guatemala, and Belize<br/>
+        • BLZ – Belize borders Mexico and Guatemala<br/>
+        • GTM – Guatemala borders Mexico, Belize, El Salvador, and Honduras<br/>
+        • SLV – El Salvador borders Guatemala and Honduras<br/>
+        • HND – Honduras borders Guatemala, El Salvador, and Nicaragua<br/>
+        • NIC – Nicaragua borders Honduras and Costa Rica<br/>
+        • CRI – Costa Rica borders Nicaragua and Panama<br/>
+        • PAN – Panama borders Costa Rica<br/>
+    </p>
+    <form id="form-c">
+        <label for="fname">Enter a three letter country code or choose from the dropdown menu then click the button to see the route!</label><br>
+        <input type="text" id="fname" list="list" name="fname"><br>
+        <datalist id="list">
+            <option>CAN</option>
+            <option>USA</option>
+            <option>MEX</option>
+            <option>BLZ</option>
+            <option>GTM</option>
+            <option>SLV</option>
+            <option>HND</option>
+            <option>NIC</option>
+            <option>CRI</option>
+            <option>PAN</option>
+        </datalist>
+        <button id="clickMe" type="button" onclick="fun();">Find Route</button>
+    </form>
+    <div id="display"></div>
+</body>
+</html>
