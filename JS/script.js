@@ -95,3 +95,5 @@ function shortestPath(graph, start, destination)
     var dest = document.getElementById('fname').value;    // Gets user input from the form in index.html
     shortestPath(graph, 'USA', dest);                     // calls function with starting node of 'USA' and dynamic destination-
   };                                                      // depending on user input.
+
+ 
